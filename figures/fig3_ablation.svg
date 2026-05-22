@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="380" font-family="Arial, sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<text x="300.0" y="25" text-anchor="middle" font-size="13" font-weight="bold">Figure 3. Ablation Study: Performance Change vs FullProposed</text>
+<line x1="155" y1="280.0" x2="560" y2="280.0" stroke="#e0e0e0" stroke-width="0.5"/>
+<text x="152" y="284.0" text-anchor="end" font-size="10" fill="#333">-60%p</text>
+<line x1="155" y1="241.66666666666669" x2="560" y2="241.66666666666669" stroke="#e0e0e0" stroke-width="0.5"/>
+<text x="152" y="245.66666666666669" text-anchor="end" font-size="10" fill="#333">-40%p</text>
+<line x1="155" y1="203.33333333333334" x2="560" y2="203.33333333333334" stroke="#e0e0e0" stroke-width="0.5"/>
+<text x="152" y="207.33333333333334" text-anchor="end" font-size="10" fill="#333">-20%p</text>
+<line x1="155" y1="165.0" x2="560" y2="165.0" stroke="#e0e0e0" stroke-width="0.5"/>
+<text x="152" y="169.0" text-anchor="end" font-size="10" fill="#333">+0%p</text>
+<line x1="155" y1="126.66666666666666" x2="560" y2="126.66666666666666" stroke="#e0e0e0" stroke-width="0.5"/>
+<text x="152" y="130.66666666666666" text-anchor="end" font-size="10" fill="#333">+20%p</text>
+<line x1="155" y1="88.33333333333333" x2="560" y2="88.33333333333333" stroke="#e0e0e0" stroke-width="0.5"/>
+<text x="152" y="92.33333333333333" text-anchor="end" font-size="10" fill="#333">+40%p</text>
+<line x1="155" y1="50.0" x2="560" y2="50.0" stroke="#e0e0e0" stroke-width="0.5"/>
+<text x="152" y="54.0" text-anchor="end" font-size="10" fill="#333">+60%p</text>
+<line x1="160" y1="165.0" x2="560" y2="165.0" stroke="#666" stroke-width="1"/>
+<rect x="190.0" y="152.21583333333334" width="55" height="12.784166666666666" fill="#ef5350" rx="2" opacity="0.85"/>
+<text x="217.5" y="148.21583333333334" text-anchor="middle" font-size="9" fill="#333">ΔAcc
+-7%p</text>
+<rect x="275.0" y="126.66666666666666" width="55" height="38.333333333333336" fill="#66bb6a" rx="2" opacity="0.85"/>
+<text x="302.5" y="179.0" text-anchor="middle" font-size="9" fill="#333">ΔLLM
+-30</text>
+<text x="260.0" y="295" text-anchor="middle" font-size="8" fill="#333">Ablation1 (NoJudge)</text>
+<text x="260.0" y="307" text-anchor="middle" font-size="8" fill="#333">vs FullProposed</text>
+<rect x="390.0" y="62.784166666666664" width="55" height="102.21583333333334" fill="#ef5350" rx="2" opacity="0.85"/>
+<text x="417.5" y="58.784166666666664" text-anchor="middle" font-size="9" fill="#333">ΔAcc
+-53%p</text>
+<rect x="475.0" y="88.33333333333333" width="55" height="76.66666666666667" fill="#ef5350" rx="2" opacity="0.85"/>
+<text x="502.5" y="84.33333333333333" text-anchor="middle" font-size="9" fill="#333">ΔLLM
++60</text>
+<text x="460.0" y="295" text-anchor="middle" font-size="8" fill="#333">Ablation2 (NoPreFilter)</text>
+<text x="460.0" y="307" text-anchor="middle" font-size="8" fill="#333">vs FullProposed</text>
+<rect x="170" y="338" width="10" height="10" fill="#66bb6a" rx="2" opacity="0.85"/>
+<text x="184" y="347" font-size="9" fill="#333">Positive Δ (improvement / fewer LLM calls)</text>
+<rect x="170" y="358" width="10" height="10" fill="#ef5350" rx="2" opacity="0.85"/>
+<text x="184" y="367" font-size="9" fill="#333">Negative Δ (degradation / more LLM calls)</text>
+</svg>
