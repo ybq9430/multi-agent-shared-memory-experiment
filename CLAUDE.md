@@ -59,7 +59,7 @@ The experiment compares 8 configurations for resolving shared-memory conflicts b
 ### Configuration
 
 - `prototype/config.py` holds all constants: API key/base URL (DeepSeek), agent count/roles, DB path, iteration count, timing windows, trust score defaults.
-- The API key is hardcoded in `config.py` — do not commit it if this becomes a git repo.
+- API key is read from the `DEEPSEEK_API_KEY` environment variable. If not set, replace `None` in `config.py` with your key string (do not commit it).
 - The SQLite database is `experiment_results.db` in the workspace root.
 
 ### Dependencies
