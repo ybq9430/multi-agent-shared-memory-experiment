@@ -26,8 +26,7 @@ prototype/experiment_pivot_*.csv
 .env
 .env.local
 
-# Course assignment files (personal, not part of experiment)
-*.docx
+# Course assignment file backups
 12/
 _ref_output.txt
 experiment_results.db
