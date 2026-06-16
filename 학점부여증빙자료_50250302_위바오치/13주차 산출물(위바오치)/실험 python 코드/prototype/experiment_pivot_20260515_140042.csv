@@ -1,9 +1,0 @@
-﻿Group,ordering,semantic,simultaneous_write,Overall_Accuracy,Overall_Latency
-1_Baseline,100.00,80.00,40.00,73.33,5.92
-2_StrongOnly,100.00,80.00,40.00,73.33,4.94
-3_TimestampPriority,100.00,60.00,60.00,73.33,5.38
-4_TrustScorePriority,100.00,20.00,60.00,60.00,5.16
-5_LeaderMediation,100.00,20.00,60.00,60.00,5.18
-6_Ablation1_NoJudge,100.00,50.00,60.00,70.00,4.97
-7_Ablation2_NoPreFilter,100.00,80.00,0.00,60.00,1626.02
-8_FullProposed,100.00,80.00,60.00,80.00,588.99
